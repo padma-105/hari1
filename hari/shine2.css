@@ -1,0 +1,26 @@
+ body{
+            height: 100vw;
+            margin: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            font-family: arial;
+            color: transparent;
+            font-size: 12rem;
+            background-image:linear-gradient(to right,green,red,yellow,orange,indigo,violet);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: move 60s linear infinite;
+        }
+        @keyframes move{
+             to{
+                background-position: 3000vh;
+             }
+
+            }
+
